@@ -1,0 +1,40 @@
+h1{
+	color: green;
+}
+.pai{
+	width: 100%;
+	height: 250vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+footer{
+	color: green;
+	text-align: center;
+}
+.mae{
+	max-width: 100%;
+	padding: 10px;
+}
+.cadeira{
+	display: flex;
+	flex-direction: column;
+}
+.puff{
+	margin-bottom: 20px;
+}
+@media screen and (min-width: 768px){
+	.cadeira{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.puff{
+		flex: 1 1 calc(50%-20px);
+		margin: 10px;
+	}
+}
+footer{
+	color: green;
+	text-align: center;
+}
